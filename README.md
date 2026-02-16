@@ -32,16 +32,25 @@ bash
 node app.js
 Abre http://localhost:3000 en tu navegador
 
-Estructura de carpetas
-text
+```
 miniTienda/
-├── public/              # Archivos estáticos (CSS, imágenes)
-├── views/               # Plantillas Handlebars
-│   ├── layouts/         # Layout principal
-│   ├── partials/        # Componentes reutilizables
-│   └── ...              # Vistas
-├── app.js               # Archivo principal
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   └── img/
+├── views/
+│   ├── layouts/
+│   │   └── main.handlebars
+│   ├── partials/
+│   │   ├── navbar.handlebars
+│   │   └── footer.handlebars
+│   ├── home.handlebars
+│   ├── about.handlebars
+│   ├── contact.handlebars
+│   └── success.handlebars
+├── app.js
 └── package.json
+```
 Rutas
 / - Página de inicio con productos
 
@@ -54,3 +63,4 @@ Los productos se pueden modificar en el archivo app.js dentro del array producto
 
 Licencia
 Proyecto educativo - libre uso
+
