@@ -33,23 +33,23 @@ node app.js
 Abre http://localhost:3000 en tu navegador
 
 
-miniTienda/
-├── public/
-│   ├── css/
-│   │   └── style.css
-│   └── img/
-├── views/
-│   ├── layouts/
-│   │   └── main.handlebars
-│   ├── partials/
-│   │   ├── navbar.handlebars
-│   │   └── footer.handlebars
-│   ├── home.handlebars
-│   ├── about.handlebars
-│   ├── contact.handlebars
-│   └── success.handlebars
-├── app.js
-└── package.json
+### miniTienda/
+ ├── public/
+ │   ├── css/
+ │   │   └── style.css
+ │   └── img/
+ ├── views/
+ │   ├── layouts/
+ │   │   └── main.handlebars
+ │   ├── partials/
+ │   │   ├── navbar.handlebars
+ │   │   └── footer.handlebars
+ │   ├── home.handlebars
+ │   ├── about.handlebars
+ │   ├── contact.handlebars
+ │   └── success.handlebars
+ ├── app.js
+ └── package.json
 
 Rutas
 / - Página de inicio con productos
@@ -63,5 +63,6 @@ Los productos se pueden modificar en el archivo app.js dentro del array producto
 
 Licencia
 Proyecto educativo - libre uso
+
 
 
